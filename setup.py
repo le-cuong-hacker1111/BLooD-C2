@@ -29,12 +29,12 @@ elif c == "1":
     os.system("pip3 install shutup")
     os.system("pip3 install psutil")
     os.system("pip3 install flask")
+    os.system("pip3 install tkinter")
 if os.name == "nt":
     pass
 else:
     os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
-    os.system("sudo apt-get install ./google-chrome-stable_current_amd64.deb")
+    os.system("sudo apt-get install ./google-chrome-stable_current_amd64.deb -y")
     os.system("chmod +x *")
-    os.system("python3 main.py")
 
-print("Hoàn-thành.")
+print("Done.")
